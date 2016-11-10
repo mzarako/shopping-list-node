@@ -73,3 +73,6 @@ app.delete('/items/:id', jsonParser, function(request, response) {
 
 app.listen(2000);
 console.log('listening on port 2000');
+
+exports.app = app;
+exports.storage = storage;
